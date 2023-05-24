@@ -1,0 +1,392 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>触觉反应 | SSY小窝</title><meta name="author" content="ssy"><meta name="copyright" content="ssy"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="FakeGuard:研究触觉响应，增强反指纹欺骗研究背景指纹认证方式兴起，传统反欺骗方案存在漏洞指纹在保护用户信息方面起到了巨大的作用，在人们的日常的生活中，指纹常常作为代替口令的存在来进行用户身份认证。自动指纹识别系统(AFRS)旨在通过链接用户独特的指纹来保护未经授权的访问，以保护信息。随着AFRS在门禁、执法、身份管理和移动认证等关键应用中的不断发展，对手发现了绕过基于指纹安全的创新方法。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="触觉反应">
+<meta property="og:url" content="http://twoeggs.com.cn/2023/05/22/%E8%A7%A6%E8%A7%89%E5%8F%8D%E5%BA%94/index.html">
+<meta property="og:site_name" content="SSY小窝">
+<meta property="og:description" content="FakeGuard:研究触觉响应，增强反指纹欺骗研究背景指纹认证方式兴起，传统反欺骗方案存在漏洞指纹在保护用户信息方面起到了巨大的作用，在人们的日常的生活中，指纹常常作为代替口令的存在来进行用户身份认证。自动指纹识别系统(AFRS)旨在通过链接用户独特的指纹来保护未经授权的访问，以保护信息。随着AFRS在门禁、执法、身份管理和移动认证等关键应用中的不断发展，对手发现了绕过基于指纹安全的创新方法。">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp">
+<meta property="article:published_time" content="2023-05-22T07:09:10.000Z">
+<meta property="article:modified_time" content="2023-05-22T07:17:54.000Z">
+<meta property="article:author" content="ssy">
+<meta property="article:tag" content="learn">
+<meta property="article:tag" content="论文">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp"><link rel="shortcut icon" href="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/pika.webp"><link rel="canonical" href="http://twoeggs.com.cn/2023/05/22/%E8%A7%A6%E8%A7%89%E5%8F%8D%E5%BA%94/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '触觉反应',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-05-22 15:17:54'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/head.webp" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">2</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp')"><nav id="nav"><span id="blog-info"><a href="/" title="SSY小窝"><span class="site-name">SSY小窝</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归类</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">触觉反应</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2023-05-22T07:09:10.000Z" title="Created 2023-05-22 15:09:10">2023-05-22</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-05-22T07:17:54.000Z" title="Updated 2023-05-22 15:17:54">2023-05-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/learn/">learn</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">Word count:</span><span class="word-count">5.3k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">Reading time:</span><span>16min</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="触觉反应"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">Comments:</span><a href="/2023/05/22/%E8%A7%A6%E8%A7%89%E5%8F%8D%E5%BA%94/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count" data-xid="/2023/05/22/%E8%A7%A6%E8%A7%89%E5%8F%8D%E5%BA%94/" itemprop="commentCount"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="FakeGuard-研究触觉响应，增强反指纹欺骗"><a href="#FakeGuard-研究触觉响应，增强反指纹欺骗" class="headerlink" title="FakeGuard:研究触觉响应，增强反指纹欺骗"></a>FakeGuard:研究触觉响应，增强反指纹欺骗</h1><h2 id="研究背景"><a href="#研究背景" class="headerlink" title="研究背景"></a>研究背景</h2><h3 id="指纹认证方式兴起，传统反欺骗方案存在漏洞"><a href="#指纹认证方式兴起，传统反欺骗方案存在漏洞" class="headerlink" title="指纹认证方式兴起，传统反欺骗方案存在漏洞"></a>指纹认证方式兴起，传统反欺骗方案存在漏洞</h3><p>指纹在保护用户信息方面起到了巨大的作用，在人们的日常的生活中，指纹常常作为代替口令的存在来进行用户身份认证。自动指纹识别系统(AFRS)旨在通过链接用户独特的指纹来保护未经授权的访问，以保护信息。随着AFRS在门禁、执法、身份管理和移动认证等关键应用中的不断发展，对手发现了绕过基于指纹安全的创新方法。</p>
+<p>在证明有可能利用德国部长指纹的二维图像入侵以及绕过苹果的TouchID传感器之前，AFRS的漏洞并没有被认为是一个主要的威胁。从那时起，不同的攻击已经浮出水面，例如，使用3D人造假手指绕过三星S10智能手机，或通过胶枪克隆指纹来入侵500个银行账户。</p>
+<p>在意识到以上这些威胁后，研究人员提出了有功效的对抗策略，使用定制的硬件或基于软件的解决方案。这些反欺骗解决方案被积极整合到商业AFRS产品中，以追踪毫米级的假手指。鉴于指纹领域的成熟度，现有的自动指纹识别系统被认为对非自动的、由错误引起的假手指有足够的容错率；然而，它们对新出现的攻击的有效性仍未确定。</p>
+<h3 id="该团队的测试"><a href="#该团队的测试" class="headerlink" title="该团队的测试"></a>该团队的测试</h3><p>最新的自动指纹识别系统对假手指是否有抵抗力？为了回答这个问题，该团队通过高精度的假手指攻击，对AFRS的反欺骗机制进行了探索性调查。</p>
+<p><strong>攻击者假设：</strong></p>
+<ol>
+<li><p>非侵入性:由于Bob的警惕，Alice不能直接或无线访问AFRS的固件模块。(AFRS:在智能设备中，在硬件和软件的开发过程中集成了多种安全检查，通过防篡改包装或在加密电路上安装AFRS进行恶意入侵检测.)</p>
+</li>
+<li><p>高精度生物特征。敌手可以获取指纹的高精度信息。如通过社交媒体、光学相机等</p>
+</li>
+<li><p>制造能力:Alice不需要使用昂贵的制造机器。尽管Alice能够用各种各样的欺骗材料制作假手指，但她不擅长通过仿生3D打印机制作害者活手指的生物复制品，因为这些机器在普通攻击实践中经济上是不可行的。</p>
+</li>
+</ol>
+<p><strong>攻击要求：</strong></p>
+<ul>
+<li>相似性：Alice将在访问尝试中以与Bob相同的动态(即压力和速度)输入假手指。</li>
+<li>隐藏性:安全漏洞发生后，智能设备上不应留有指向攻击者的痕迹。（油腻或粘性的物质可能会在设备上留下痕迹，这在物质分析中很容易识别。)</li>
+<li>模型精度:Alice会防止输入的假手指有任何容易被AFRS识别的缺陷。</li>
+</ul>
+<p><strong>采用的假手指的特征</strong>：</p>
+<ul>
+<li><p>假手指材料需要具有与人类皮肤相同的质感和阻抗。基于以上要求，聚醋酸乙烯酯(PVAc)胶，是攻击模型最适合的材料。</p>
+<p>聚醋酸乙烯酯胶的主要成分是聚醋酸乙烯酯，一种脂肪族橡胶合成聚合物，分子式为$(C_4H_6O_2)_n$。</p>
+<p>物理性质：PVAc胶作为一种大分子物质，其粒径在100nm ~ 1$\mu m$之间。在25℃处其密度为1.191 g&#x2F;mL，介电常数为1.15。PVAc胶在正常环境下具有弹性和稳定性。如图为假手指内的化学结构。</p>
+<p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230415101335133.webp" alt="image-20230415101335133"></p>
+</li>
+<li><p>没有使用昂贵的3D打印机，其可以利用低成本和非常容易获取的材料来制造高分辨率假手指来进行攻击，指纹纹理和整个手指几何形状的误差幅度为亚微米级。这些假手指拥有与合法用户的真实手指几乎相同的纹理和阻抗信息。并且假手指上的指纹纹理具有卓越的脊清晰度和强度，有助于突破光学扫描仪的反欺骗功能。</p>
+</li>
+</ul>
+<p>假手指攻击揭示了最新识别系统全性的不足，并能以超过93%的成功欺骗率攻破不同类型的具有防欺骗功能AFRS。鉴于自动指纹识别系统市场预计在2024年将增长到71亿，需要立即采取对策，以克服活体和假体手指在纹理和阻抗水平上的相似性。</p>
+<p><strong>攻击成功原因分析：</strong>现有的三维表面或纹理匹配算法主要利用脊强度和清晰度信息，因此无法区分我们的部分假指纹和部分活手指。PVAc胶和人体皮肤之间的阻抗相似性使得假手指能够像活体手指一样刺激电容分布。因此，假指纹也可以欺骗智能手机和笔记本电脑设备中的电容性AFRS。</p>
+<h2 id="新方法介绍"><a href="#新方法介绍" class="headerlink" title="新方法介绍"></a>新方法介绍</h2><h3 id="原理介绍"><a href="#原理介绍" class="headerlink" title="原理介绍"></a>原理介绍</h3><p>众所周知，人类指尖不仅包含独特的指纹纹理，而且包含血管、皮肤(如表皮、真皮)、指骨和组织的复杂多层解剖结构。这些生物元素之间的动态互联性决定了不同的物理指标，包括触摸交互过程中指尖的硬度和弹性。除了指纹细节外，为了捕捉这些物理测量的内在表征，该团队提出了一种具有成本效益和硬件友好的触觉界面，可以与现成的AFRS无缝集成。一种专门的聚二甲基硅氧烷(PDMS)层促进了与用户指尖交互时的触觉反应，而响应的大小取决于交互表面的构成。</p>
+<h4 id="PDMS的特性"><a href="#PDMS的特性" class="headerlink" title="PDMS的特性"></a>PDMS的特性</h4><p>触觉传感器最好选用具有粘弹性和弱分子间作力的聚合物以作为测量相互作用介质的物理特性。</p>
+<p>聚二甲基硅氧烷(PDMS)是一种广泛应用的硅基有机聚合物，具有无毒、生物相容性、弹性、透明和耐用性等多种特点。</p>
+<p>当人的指尖压在弹性体表面(如PDMS)时，聚合物结构会发生变形。这种变形由弹性静力学偏微分方程系统控制<br>$$<br>\bigtriangledown \times \sigma +F&#x3D;0<br>$$</p>
+<p>$$<br>\varepsilon &#x3D;\frac 1 2 [\bigtriangledown u+(\bigtriangledown u)^T]<br>$$</p>
+<p>$$<br>\sigma &#x3D; C:\varepsilon<br>$$</p>
+<p>多层指尖的F、$\varepsilon$、C与单层假手指的F、$\varepsilon$、C不同，从而形成独特的形变u。</p>
+<p>这种形变即体现为触觉响应效应，其大小与整个指尖的解剖结构相关。</p>
+<p>而指尖的多层组成导致了非线性的触觉反应;单层物体(如假手指)在接触区域引起均匀分布的触觉反应。</p>
+<h3 id="系统框架"><a href="#系统框架" class="headerlink" title="系统框架"></a>系统框架</h3><p>总体系统涉及硬件和软件模块的结合。</p>
+<ol>
+<li><p>硬件模块:指尖被压在PDMS凝胶上，该凝胶受到不同方向的光学照明。触觉反应由智能手机摄像头记录在一系列图像中。放置丙烯酸反射膜以阻断环境光。</p>
+<p>其中包括：</p>
+<ul>
+<li><p>低成本led:三点led位于传感器的内壳上，从不同的照明方向照亮PDMS凝胶。每个LED的功耗为0.024W。白色LED圆形环确保了从各个角度看都均匀明亮的表面。</p>
+</li>
+<li><p>智能手机相机:我们考虑一种低成本和便携的智能手机相机(96dpi，每秒3帧)来捕捉图像序列中的触觉反应。摄像机放置在距凝胶表面10cm焦距处，以获取详细的响应。</p>
+</li>
+<li><p>树莓派:用于控制led的亮度和相机参数（由带有ARM的树莓派4微控制器控制）</p>
+</li>
+<li><p>外壳:采用高12cm、直径8cm的圆柱形结构建模。使用3D打印机制作由光敏树脂组成的外壳。</p>
+</li>
+</ul>
+</li>
+<li><p>软件模块：将测量的图像序列输入到光度立体算法中，用于触觉响应的三维重建。采用旋转不变的局部二值模式(Rot-LBP)和灰度共生矩阵(GLCM)来表示3D响应，同时利用指纹检索模型来捕获固有的方向和脊频率信息。将所选特征输入到分类模型中进行假手指检测。</p>
+<p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230422101242527.webp" alt="image-20230422101242527"></p>
+</li>
+</ol>
+<p>下图所示为硬件模块的实拍图</p>
+<p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230411164815235.webp" alt="image-20230411164815235"></p>
+<p>在硬件模块中，采用了双层PDMS凝胶作为相互作用介质。透明层由184PDMS组成，聚合物与交联剂的混合比例为35:1。527PDMS采用1:1比例，形成具有足够弹性的理想彩色层，可捕获指纹纹路和图案。彩色层的作用是防止环境光到达相机镜头，还克服了对用户的肤色很敏感的问题，因为较暗的色调可以减少感知图像中的指纹信息。同时为了防止镜面反射对凝胶表面的影响，在PDMS和相机镜头之间放置了一层丙烯酸反射膜。</p>
+<h3 id="认证过程"><a href="#认证过程" class="headerlink" title="认证过程"></a>认证过程</h3><ol>
+<li>在感知过程中，合法用户将指尖按在PDMS凝胶上超过1秒;每个点的LED灯都被打开和关闭(一次一个)，同时由相机记录凝胶表面的图像。</li>
+<li>利用光度立体技术从一系列捕获的图像中重建三维触觉反应，同时确保解剖学和指纹模式的内在信息。三维响应重建的过程包括确定光的方向、表面法线和深度信息。（光度立体算法是一种对同一物体的二维图像在不同光照条件下估计深度和表面方向的三维重建解决方案。）</li>
+<li>进行触觉空间分布</li>
+<li>最后利用重构出来的图像辨别是否是假指纹</li>
+</ol>
+<h3 id="处理触觉响应过程"><a href="#处理触觉响应过程" class="headerlink" title="处理触觉响应过程"></a>处理触觉响应过程</h3><p>当指尖被压在PDMS凝胶上时，产生的触觉反应与指尖的解剖结构相关，并在三个维度上扩散。通过从触觉响应中提取多级细节特征来展示 FakeGuard 与 AFRS 的软件兼容性。然后，我们提取触觉响应中的空间特征，这些特征与用户指尖引起的PDMS凝胶变形有关。</p>
+<h4 id="提取细节特征"><a href="#提取细节特征" class="headerlink" title="提取细节特征"></a>提取细节特征</h4><ol>
+<li><p><strong>重构</strong></p>
+<p>采用光度立体法对图像进行重构<br>$$<br>\left{ \begin{aligned} E_1(x,y)&#x3D;\frac {Q(1+pp_1+qq_1)}{\sqrt{1+p^2+q^2}\sqrt{1+p^2 _1+q^2 _1}} \ E_2(x,y)&#x3D;\frac {Q(1+pp_2+qq_2)}{\sqrt{1+p^2+q^2}\sqrt{1+p^2 _2+q^2 _2}} \ E_3(x,y)&#x3D;\frac {Q(1+pp_3+qq_3)}{\sqrt{1+p^2+q^2}\sqrt{1+p^2 _3+q^2 _3}} \end{aligned} \right.<br>$$</p>
+<p>$$<br>p&#x3D;\frac{\partial z(x,y)}{\partial x}&#x3D;z(x+1,y)-z(x,y)<br>$$</p>
+<p>$$<br>q&#x3D;\frac{\partial z(x,y)}{\partial y}&#x3D;z(x,y+1)-z(x,y)<br>$$</p>
+<p>其中E1、E2、E3分别为三幅图像像素点的规格化亮度，(p1,q1)(p2,q2)(p3,q3)分别为三束光线的矢量，Q为反射常数，(p,q)为表面的方向梯度</p>
+<p>通过对方程组求解得到图像上各象素点的表面方向梯度 , 在实际情况中由于图像已离散化因此可以由他们的一次差分近似地表示。设起始点为(x0,y0)，通常为图像的中心点。便可由上式求得其相邻四个点的高度值，分别表示为Z(x+1,y)、Z(x-1,y)、Z(x,y-1)、Z(x,y+1)。并且可以进一步扩散到整体图像，并恢复出物体表面的形状</p>
+<p>下图所示为恢复出的指纹形状</p>
+</li>
+</ol>
+<p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230411170450287.webp" alt="image-20230411170450287"></p>
+<ol start="2">
+<li><p><strong>增强</strong></p>
+<p>指纹由交错的山脊和山谷图案组成，它们可以分叉、终止或相互平行。该团队提出了一种融合了一级特征(即局部方向和脊频图)和二级特征(即细节位置和角度)的指纹检索方法。</p>
+<p>首先通过自适应阈值化、归一化等方法对光度立体图像进行了增强。图像的二值化或阈值化旨在提取图像中的目标物体，将背景以及噪声区分开来。通常会设定一个阈值T，通过T将图像的像素划分为两类：大于T的像素群和小于T的像素群。每个像素都只有一个灰度值，其大小表示明暗程度。二值化处理可以将图像中的像素划分为两类颜色。</p>
+<p>自适应体现在每个像素位置处的二值化阈值不是固定不变的，而是由其周围邻域像素的分布来决定的。</p>
+<p>下图为处理后的图像</p>
+</li>
+</ol>
+<p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230411170614876.webp" alt="image-20230411170614876"></p>
+<ol start="3">
+<li><p><strong>取向</strong></p>
+<p>在增强的指纹图像中找到轮廓来构建图形结构的边缘，如下图所示。</p>
+</li>
+</ol>
+<p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230412100518832.webp" alt="image-20230412100518832"></p>
+<ol start="4">
+<li><p><strong>求脊频率</strong></p>
+<p>在计算方向图后，可以推导相同位置的脊型和谷型的频率。对于每个大小为32x32的块，脊频是相邻区域平均脊线周期的倒数。下图显示了脊频图，其中较轻的块表示较高的频率。</p>
+</li>
+</ol>
+<p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230412101533178.webp" alt="image-20230412101533178"></p>
+<ol start="5">
+<li><p><strong>细节</strong></p>
+<p>由NIST提供的NBIS的MINDTCT函数进行细节提取。MINDTCT包括四个主要步骤，包括图像映射的生成、图像二值化、初始细节集的检测和去除虚假细节，以提供[x, y,$\theta$]形式的特征集。(x,y)为位置，$\theta$为角，如下图所示。</p>
+</li>
+</ol>
+<p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230412101741159.webp" alt="image-20230412101741159"></p>
+<h4 id="触觉空间分布"><a href="#触觉空间分布" class="headerlink" title="触觉空间分布"></a>触觉空间分布</h4><p>触觉响应是三维的，也就是说，它在给定的水平和垂直位置有特定的深度。深度信息通过像素强度反映在灰度图像中，而触觉响应可以包含在整体空间纹理分布中。该团队采用旋转不变的局部二进制模式(Rot-LBP)和灰度共生矩阵(GLCM)来分析这种空间分布。</p>
+<ul>
+<li><p><strong>Rot-LBP</strong></p>
+<p>局部二值模式是一种灰度范围内的纹理描述方式。算法的思想是利用结构化思想提取窗口特征，再利用统计化做最终整体特征的提取。</p>
+<p>1、对图像中的所有点，以该点为中心，取3x3的邻域窗口；</p>
+<p>2、将8-邻域像素值与中心点像素值进行比较，大于或等于中心像素标记为1，否则标记为0；</p>
+<p>3、将周围0-1序列，以一定的顺序排列，成一个8位的无符号的二进制数，转化成整数；</p>
+<p>4、这个整数就是表征这个窗口的LBP值</p>
+<p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230412102829248.webp" alt="image-20230412102829248"></p>
+<p>但是我们注意到，当这个01序列以另外一种方式取值时，LBP的值就会发生改变。所以需要采用一定方法使其具有旋转不变性以增强其鲁棒性。具体方法为不断  旋转邻域得到一系列的LBP值，取其中最小值作为该邻域的LBP值。旋转过程实质上就是对二进制模式进行循环移位的过程。</p>
+</li>
+</ul>
+<p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230412103012544.webp" alt="image-20230412103012544"></p>
+<ul>
+<li><p><strong>GLCM</strong></p>
+<p>该方法量化了凝胶表面的难以察觉的变化。</p>
+<p>Rot-LBP模式中各灰度对(i,j)的共现概率可定义为:<br>$$<br>p(i,j)&#x3D;\frac{C(i,j)}{\sum _{i&#x3D;0}^{N-1}\sum _{j&#x3D;0}^{N-1}C(i,j)}<br>$$</p>
+<p>矩阵的水平和垂直均值如下：</p>
+</li>
+</ul>
+<p>$$<br>  u_x&#x3D;\sum _{i&#x3D;0}^{N-1}\sum _{j&#x3D;0}^{N-1}i\times p(i,j),u_y&#x3D;\sum _{i&#x3D;0}^{N-1}\sum _{j&#x3D;0}^{N-1}j\times p(i,j)<br>$$</p>
+<p>  其中C(i,j)是灰度i和j在窗口N &#x3D; 32内的出现次数。</p>
+<p>  分别在0、45、90、135°方向上计算GLCM，可以抽象出基于触觉的特征。相关的信息度量可以分为一阶统计(单个像素属性)和二阶统计(相对像素属性)。</p>
+<h2 id="评估"><a href="#评估" class="headerlink" title="评估"></a>评估</h2><h3 id="测试场景"><a href="#测试场景" class="headerlink" title="测试场景"></a>测试场景</h3><p>要求每个受试者进行15次试验。在每次试验中，参与者首先在PDMS凝胶上按下他们的活手指。这个过程在一次试验中重复20次。每次试验间隔10分钟，以确保受试者的按压动作更自然，更接近真实场景(即非均匀按压)。对于每一个按压动作，通过智能手机摄像头获得一秒钟的记录。单个记录显示一个3D图像，其中包含特定特征的触觉反应。因此，对于活体手指，总共记录了6000张3D图像(20名受试者* 300个按压动作)和18000张2D图像(20名受试者* 300个按压动作* 3个样本&#x2F;动作)。对于针对每个受试者制作的假手指(能够欺骗AFRS)，以相同的方式重复该实验，以生成总共12000个3D图像。</p>
+<h3 id="性能分析"><a href="#性能分析" class="headerlink" title="性能分析"></a>性能分析</h3><p>FakeGuard作为影响应用程序的安全非常重要的机制，在实际条件下检查性能和可靠性至关重要。该团队考虑了两种情况：</p>
+<ol>
+<li>监督检测：给定两个类别的训练样本对活手指和假手指进行分类;</li>
+<li>无监督呈现攻击：当模型仅在活手指样本上训练时，探究是否能够识别未知假手指</li>
+</ol>
+<p><strong>监督检测：</strong>在监督场景中，分类器在多个用户上进行训练，并用于识别特定的目标。该团队对12000个样本(6000个活样本和6000个假样本)执行10倍交叉验证，FakeGuard在不同的分类器(即SVM, KNN, LDA, LR, XGBoost, LightGBM和CNN)中使用来自活手指和假手指的样本进行训练。下图所示为识别错误率。</p>
+<img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230420121551091.webp" alt="image-20230420121551091" style="zoom:67%;" />
+
+<p>由图中可知，SVM、KNN、LDA、LR、XGBoost、LightGBM和CNN检测活指和假指的平均误差分别为3.925%、8.2%、1.725%、2.175%、2.009%、1.777%和1.815%，在区分假指纹和真实指纹样本方面表现出了很好的性能。研究结果表明，FakeGuard在假手指检测方面的潜力超过了现有的反欺骗解决方案。</p>
+<p><strong>无监督呈现攻击：</strong>在现实世界的应用中，生物识别系统学会了区分用户的活体指纹，但对对手在攻击中可能利用的假手指（如手指材料）一无所知。理想的自动指纹识别系统应该能够拒绝假手指，而无需事先训练。然而，现有的研究需要事先对已知的假手指样本进行反欺骗模型的训练。该团队探究了只训练活体手指时，是否能识别出未知的假手指。</p>
+<p>下图所示为当底层分类器只对真实的手指进行训练时，FakeGuard可以拒绝未知的假手指(红线表示的理想性能)。尽管只有触觉反应功能的训练，来自未知&#x2F;未经授权用户的活手指&#x2F;假手指仍然可以被拒绝。根据阈值的不同，平均欺诈率在4.67% ~ 2.43%之间。证明了即使没有广泛的学习过程，触觉反应也是一种很有前途的抗欺骗特征，它能识别出在真实手指和假手指之间存在的显著差异。</p>
+<img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230420123009414.webp" alt="image-20230420123009414" style="zoom:67%;" />
+
+<p>同时该团队还探究了触觉反应特征的LDA二维表示，以演示在各种用于制作假手指的欺骗材料中真实和假指纹之间的可识别性。特征1和特征2表示降维后的两个维度。可以看到在活体手指和用各种材料制作的假手指之间有一条明显的区分线。</p>
+<img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230420123704081.webp" alt="image-20230420123704081" style="zoom:67%;" />
+
+<h2 id="总结与思考"><a href="#总结与思考" class="headerlink" title="总结与思考"></a>总结与思考</h2><p>大量关于指纹反欺骗的文献和AFRS的发展让人们高估了对假手指的检测能力，是一种错误的安全感。在这篇论文中，该团队首先证明了目前最先进的AFRS可以被高精度的假手指欺骗。所以他们思考了材料与活体的最本质区别，考虑并研究了了解剖的生物学特性，并发现利用这种特性可以更好地区分活体与假手指。由此开发了FakeGuard，利用活体指尖与凝胶表面相互作用引起的触觉反应来反指纹欺骗。</p>
+<p>FakeGuard是用户友好的，具有对抗最先进的欺骗攻击的优越性能。但是我认为因为他们采用了特殊的硬件设备，很难与现有的设备（如手机、平板电脑）集成兼容，不具备广泛应用的商业价值。其更重要的意义在于发明了一种可以更精确地识别假手指的方案，更多的具有理论上的价值，如果要达到广泛地商用，还有很长的一段路要走。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://twoeggs.com.cn">ssy</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://twoeggs.com.cn/2023/05/22/%E8%A7%A6%E8%A7%89%E5%8F%8D%E5%BA%94/">http://twoeggs.com.cn/2023/05/22/%E8%A7%A6%E8%A7%89%E5%8F%8D%E5%BA%94/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/learn/">learn</a><a class="post-meta__tags" href="/tags/%E8%AE%BA%E6%96%87/">论文</a></div><div class="post_share"><div class="social-share" data-image="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/05/22/%E9%80%86%E5%90%91%E5%AE%9E%E9%AA%8C/" title="逆向实验"><img class="cover" src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">逆向实验</div></div></a></div><div class="next-post pull-right"><a href="/2023/05/21/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%AE%9E%E9%AA%8Clab1/" title="信息系统安全实验"><img class="cover" src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">信息系统安全实验</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2023/05/21/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%AE%9E%E9%AA%8Clab1/" title="信息系统安全实验"><img class="cover" src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-05-21</div><div class="title">信息系统安全实验</div></div></a></div><div><a href="/2023/05/22/%E9%80%86%E5%90%91%E5%AE%9E%E9%AA%8C/" title="逆向实验"><img class="cover" src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-05-22</div><div class="title">逆向实验</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> Comment</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/head.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ssy</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">5</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Pikachu1412"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#FakeGuard-%E7%A0%94%E7%A9%B6%E8%A7%A6%E8%A7%89%E5%93%8D%E5%BA%94%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%8F%8D%E6%8C%87%E7%BA%B9%E6%AC%BA%E9%AA%97"><span class="toc-number">1.</span> <span class="toc-text">FakeGuard:研究触觉响应，增强反指纹欺骗</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A0%94%E7%A9%B6%E8%83%8C%E6%99%AF"><span class="toc-number">1.1.</span> <span class="toc-text">研究背景</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8C%87%E7%BA%B9%E8%AE%A4%E8%AF%81%E6%96%B9%E5%BC%8F%E5%85%B4%E8%B5%B7%EF%BC%8C%E4%BC%A0%E7%BB%9F%E5%8F%8D%E6%AC%BA%E9%AA%97%E6%96%B9%E6%A1%88%E5%AD%98%E5%9C%A8%E6%BC%8F%E6%B4%9E"><span class="toc-number">1.1.1.</span> <span class="toc-text">指纹认证方式兴起，传统反欺骗方案存在漏洞</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AF%A5%E5%9B%A2%E9%98%9F%E7%9A%84%E6%B5%8B%E8%AF%95"><span class="toc-number">1.1.2.</span> <span class="toc-text">该团队的测试</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B0%E6%96%B9%E6%B3%95%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.2.</span> <span class="toc-text">新方法介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%9F%E7%90%86%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.2.1.</span> <span class="toc-text">原理介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#PDMS%E7%9A%84%E7%89%B9%E6%80%A7"><span class="toc-number">1.2.1.1.</span> <span class="toc-text">PDMS的特性</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E6%A1%86%E6%9E%B6"><span class="toc-number">1.2.2.</span> <span class="toc-text">系统框架</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%A4%E8%AF%81%E8%BF%87%E7%A8%8B"><span class="toc-number">1.2.3.</span> <span class="toc-text">认证过程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%84%E7%90%86%E8%A7%A6%E8%A7%89%E5%93%8D%E5%BA%94%E8%BF%87%E7%A8%8B"><span class="toc-number">1.2.4.</span> <span class="toc-text">处理触觉响应过程</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8F%90%E5%8F%96%E7%BB%86%E8%8A%82%E7%89%B9%E5%BE%81"><span class="toc-number">1.2.4.1.</span> <span class="toc-text">提取细节特征</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%A7%A6%E8%A7%89%E7%A9%BA%E9%97%B4%E5%88%86%E5%B8%83"><span class="toc-number">1.2.4.2.</span> <span class="toc-text">触觉空间分布</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%84%E4%BC%B0"><span class="toc-number">1.3.</span> <span class="toc-text">评估</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E5%9C%BA%E6%99%AF"><span class="toc-number">1.3.1.</span> <span class="toc-text">测试场景</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90"><span class="toc-number">1.3.2.</span> <span class="toc-text">性能分析</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%80%BB%E7%BB%93%E4%B8%8E%E6%80%9D%E8%80%83"><span class="toc-number">1.4.</span> <span class="toc-text">总结与思考</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/05/24/hello-world/" title="Hello World"><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2023/05/24/hello-world/" title="Hello World">Hello World</a><time datetime="2023-05-24T14:15:39.047Z" title="Created 2023-05-24 22:15:39">2023-05-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/05/22/%E9%80%86%E5%90%91%E5%AE%9E%E9%AA%8C/" title="逆向实验"><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="逆向实验"/></a><div class="content"><a class="title" href="/2023/05/22/%E9%80%86%E5%90%91%E5%AE%9E%E9%AA%8C/" title="逆向实验">逆向实验</a><time datetime="2023-05-22T09:09:10.000Z" title="Created 2023-05-22 17:09:10">2023-05-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/05/22/%E8%A7%A6%E8%A7%89%E5%8F%8D%E5%BA%94/" title="触觉反应"><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="触觉反应"/></a><div class="content"><a class="title" href="/2023/05/22/%E8%A7%A6%E8%A7%89%E5%8F%8D%E5%BA%94/" title="触觉反应">触觉反应</a><time datetime="2023-05-22T07:09:10.000Z" title="Created 2023-05-22 15:09:10">2023-05-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/05/21/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%AE%9E%E9%AA%8Clab1/" title="信息系统安全实验"><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="信息系统安全实验"/></a><div class="content"><a class="title" href="/2023/05/21/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8%E5%AE%9E%E9%AA%8Clab1/" title="信息系统安全实验">信息系统安全实验</a><time datetime="2023-05-21T02:58:42.000Z" title="Created 2023-05-21 10:58:42">2023-05-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2023/05/20/travel/" title="旅行日记"><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/0430_2_20230522_145013.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="旅行日记"/></a><div class="content"><a class="title" href="/2023/05/20/travel/" title="旅行日记">旅行日记</a><time datetime="2023-05-20T05:14:21.000Z" title="Created 2023-05-20 13:14:21">2023-05-20</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/defaultcover.webp')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By ssy</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="Scroll To Comments"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        insertScript: [200, () => {
+          document.querySelectorAll('mjx-container').forEach(node => {
+            if (node.hasAttribute('display')) {
+              btf.wrap(node, 'div', { class: 'mathjax-overflow' })
+            } else {
+              btf.wrap(node, 'span', { class: 'mathjax-overflow' })
+            }
+          });
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css"><script src="https://cdn.jsdelivr.net/npm/katex/dist/contrib/copy-tex.min.js"></script><script>(() => {
+  document.querySelectorAll('#article-container span.katex-display').forEach(item => {
+    btf.wrap(item, 'div', { class: 'katex-wrap'})
+  })
+})()</script><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: '96Kqly8NfCJfNC4Vxlob3jgP-gzGzoHsz',
+      appKey: 'pQjBIxlgvgGDW5hfQpNYoK6C',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="false"></script><script id="click-show-text" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="false" data-text="I,LOVE,YOU" data-fontsize="35px" data-random="false" async="async"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
