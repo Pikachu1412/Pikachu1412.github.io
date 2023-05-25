@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>斗地主复盘分析</title>
+      <link href="/2023/05/25/game-analysis/"/>
+      <url>/2023/05/25/game-analysis/</url>
+      
+        <content type="html"><![CDATA[<h3 id="开场"><a href="#开场" class="headerlink" title="开场"></a>开场</h3><p>这把玩个祝融夫人，刷这个牌，可攻可守，有桃有杀，关键是有个K可以拼点（千万不要上马，不然是大牛马）</p><p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230525182132165.webp" alt="image-20230525182132165"></p><p>我的回合顺斧子，酒杀用马拼点拿他八卦，风险就是拼输了加一马卡队友一年</p><p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230525182339547.webp" alt="image-20230525182339547"></p><p>对面出闪直接拿酒和八卦贯他，不能养，而且队友是曹昂，我拿八卦没啥用，留个桃保一下队友</p><p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230525182741064.webp" alt="image-20230525182741064"></p><h3 id="高潮"><a href="#高潮" class="headerlink" title="高潮"></a>高潮</h3><p>到曹昂回合先开了两个五中，注意这个牌，这里很精彩，最好的操作是上藤甲连环火攻自己，再把我和地主连起来，火杀我，递藤甲，又是两滴，地主基本已经凉透了</p><p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230525182820406.webp" alt="image-20230525182820406"></p><p>队友也是这样操作的。</p><p>但是重点来了，队友火攻自己濒死求桃，我把刚才留的那个桃救了队友。此时队友手里还剩两个桃。然后队友火杀我递藤甲，地主濒死求桃，需要两个桃，<strong>曹昂救了一个桃！！！！！</strong>，地主手里一个桃救活了。</p><p>后来我分析了一下应该单纯是手快点错了，不是鞭尸，毕竟也没后续伤害。但是三组拖鞋是肯定不能少的。</p><h3 id="结局"><a href="#结局" class="headerlink" title="结局"></a>结局</h3><p>那最后呢，沙师弟扇子酒火杀把我癫狂图图，留一个方块闪，其实到这里我心都凉了，感觉要被翻盘</p><img src="https://ssypic-1318322293.cos.ap-nanjing.myqcloud.com/md/image-20230525183843178.webp" alt="image-20230525183843178" style="zoom:50%;" /><p>曹昂裸模神之火攻，送地主归西，拿下三百票子。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> game </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> gksm </tag>
+            
+            <tag> sanguosha </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>逆向实验</title>
       <link href="/2023/05/22/%E9%80%86%E5%90%91%E5%AE%9E%E9%AA%8C/"/>
       <url>/2023/05/22/%E9%80%86%E5%90%91%E5%AE%9E%E9%AA%8C/</url>
